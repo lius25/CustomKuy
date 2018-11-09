@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Regis">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sudah puny akun Cutom Ku?"/>
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="masuk"
+            android:background="@null"
+            android:textColor="@color/colorPrimary"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrasi Pelanggan"
+            android:layout_marginTop="60dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Nama"
+            android:padding="10dp"
+            android:drawablePadding="20dp"
+            android:background="#eeee"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/no_telp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="No Telp"
+            android:padding="10dp"
+            android:drawablePadding="20dp"
+            android:background="#eeee"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Email"
+            android:padding="10dp"
+            android:drawablePadding="20dp"
+            android:background="#eeee"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="220dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Masukan Alamat Anda"
+            android:padding="10dp"
+            android:drawablePadding="20dp"
+            android:background="#eeee"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="70dp"
+            android:drawableRight="@drawable/ic_location_on_black_24dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="250dp"
+        android:text="Reset"
+        android:textColor="#eeee"
+        android:backgroundTint="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUbmit"
+        android:layout_marginStart="250dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#eee"/>
+
+
+</RelativeLayout>

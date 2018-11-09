@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/depan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upload Gambar"
+            android:layout_marginStart="100dp"
+            android:layout_marginEnd="100dp"/>
+
+        <EditText
+            android:id="@+id/maukan_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="file name"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"/>
+
+
+        <ProgressBar
+            android:id="@+id/progres"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+        <ImageView
+            android:id="@+id/lihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
